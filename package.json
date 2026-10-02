@@ -1,0 +1,13 @@
+{
+  "name": "ai-healthcare-copilot",
+  "version": "1.0.0",
+  "private": true,
+  "description": "AI-Powered Healthcare Copilot Platform",
+  "scripts": {
+    "start": "npm run dev --prefix frontend",
+    "dev": "npm run dev --prefix frontend",
+    "build": "npm run build --prefix frontend",
+    "backend": "cd backend && mvnw.cmd spring-boot:run",
+    "ai-service": "python ai-service/app/standalone_server.py"
+  }
+}
